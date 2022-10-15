@@ -20,9 +20,9 @@ class AutomatedTestCaseGenerator:
             ccNum = self.testCaseList[idx][3]
 
             print(f"def testCase{testCase}(self):\n" + \
-            f"\t#Test Case: {testCase}; Prefix: {prefix}; Length: {length}, CCNum: {ccNum}\n" + \
-            f"\tccNum = \"{ccNum}\"\n" + \
-            "\tself.assertTrue(credit_card_validator(ccNum),msg=getErrorMessage(ccNum))\n" + \
+            f"\t# Test Case: {testCase}; Prefix: {prefix}; Length: {length}, CCNum: {ccNum}\n" + \
+            f"\tccnum = \"{ccNum}\"\n" + \
+            "\tself.assertTrue(credit_card_validator(ccNum), msg=getErrorMessage(ccNum))\n" + \
             "\n")
             
             
