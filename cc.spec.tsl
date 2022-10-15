@@ -14,227 +14,157 @@ Test Case 3  		(Key = 1.4.)
    Length :  17
 
 
-Test Case 4  		(Key = 2.1.)
-   Prefix :  33
-   Length :  14
-
-
-Test Case 5  		(Key = 2.2.)
+Test Case 4  		(Key = 2.2.)
    Prefix :  33
    Length :  15
 
 
-Test Case 6  		(Key = 2.3.)
-   Prefix :  33
-   Length :  16
-
-
-Test Case 7  		(Key = 3.1.)
+Test Case 5  		(Key = 3.1.)
    Prefix :  34
    Length :  14
 
 
-Test Case 8  		(Key = 3.2.)
+Test Case 6  		(Key = 3.2.)
    Prefix :  34
    Length :  15
 
 
-Test Case 9  		(Key = 3.3.)
+Test Case 7  		(Key = 3.3.)
    Prefix :  34
    Length :  16
 
 
-Test Case 10 		(Key = 4.1.)
-   Prefix :  36
-   Length :  14
-
-
-Test Case 11 		(Key = 4.2.)
+Test Case 8  		(Key = 4.2.)
    Prefix :  36
    Length :  15
 
 
-Test Case 12 		(Key = 4.3.)
-   Prefix :  36
-   Length :  16
-
-
-Test Case 13 		(Key = 5.1.)
+Test Case 9  		(Key = 5.1.)
    Prefix :  37
    Length :  14
 
 
-Test Case 14 		(Key = 5.2.)
+Test Case 10 		(Key = 5.2.)
    Prefix :  37
    Length :  15
 
 
-Test Case 15 		(Key = 5.3.)
+Test Case 11 		(Key = 5.3.)
    Prefix :  37
    Length :  16
 
 
-Test Case 16 		(Key = 6.1.)
-   Prefix :  38
-   Length :  14
-
-
-Test Case 17 		(Key = 6.2.)
+Test Case 12 		(Key = 6.2.)
    Prefix :  38
    Length :  15
 
 
-Test Case 18 		(Key = 6.3.)
-   Prefix :  38
-   Length :  16
-
-
-Test Case 19 		(Key = 7.2.)
-   Prefix :  50
-   Length :  15
-
-
-Test Case 20 		(Key = 7.3.)
+Test Case 13 		(Key = 7.3.)
    Prefix :  50
    Length :  16
 
 
-Test Case 21 		(Key = 7.4.)
-   Prefix :  50
-   Length :  17
-
-
-Test Case 22 		(Key = 8.2.)
+Test Case 14 		(Key = 8.2.)
    Prefix :  51
    Length :  15
 
 
-Test Case 23 		(Key = 8.3.)
+Test Case 15 		(Key = 8.3.)
    Prefix :  51
    Length :  16
 
 
-Test Case 24 		(Key = 8.4.)
+Test Case 16 		(Key = 8.4.)
    Prefix :  51
    Length :  17
 
 
-Test Case 25 		(Key = 9.2.)
+Test Case 17 		(Key = 9.2.)
    Prefix :  52
    Length :  15
 
 
-Test Case 26 		(Key = 9.3.)
+Test Case 18 		(Key = 9.3.)
    Prefix :  52
    Length :  16
 
 
-Test Case 27 		(Key = 9.4.)
+Test Case 19 		(Key = 9.4.)
    Prefix :  52
    Length :  17
 
 
-Test Case 28 		(Key = 10.2.)
+Test Case 20 		(Key = 10.2.)
    Prefix :  55
    Length :  15
 
 
-Test Case 29 		(Key = 10.3.)
+Test Case 21 		(Key = 10.3.)
    Prefix :  55
    Length :  16
 
 
-Test Case 30 		(Key = 10.4.)
+Test Case 22 		(Key = 10.4.)
    Prefix :  55
    Length :  17
 
 
-Test Case 31 		(Key = 11.2.)
-   Prefix :  56
-   Length :  15
-
-
-Test Case 32 		(Key = 11.3.)
+Test Case 23 		(Key = 11.3.)
    Prefix :  56
    Length :  16
 
 
-Test Case 33 		(Key = 11.4.)
-   Prefix :  56
-   Length :  17
-
-
-Test Case 34 		(Key = 12.2.)
-   Prefix :  2220
-   Length :  15
-
-
-Test Case 35 		(Key = 12.3.)
+Test Case 24 		(Key = 12.3.)
    Prefix :  2220
    Length :  16
 
 
-Test Case 36 		(Key = 12.4.)
-   Prefix :  2220
-   Length :  17
-
-
-Test Case 37 		(Key = 13.2.)
+Test Case 25 		(Key = 13.2.)
    Prefix :  2221
    Length :  15
 
 
-Test Case 38 		(Key = 13.3.)
+Test Case 26 		(Key = 13.3.)
    Prefix :  2221
    Length :  16
 
 
-Test Case 39 		(Key = 13.4.)
+Test Case 27 		(Key = 13.4.)
    Prefix :  2221
    Length :  17
 
 
-Test Case 40 		(Key = 14.2.)
+Test Case 28 		(Key = 14.2.)
    Prefix :  2222
    Length :  15
 
 
-Test Case 41 		(Key = 14.3.)
+Test Case 29 		(Key = 14.3.)
    Prefix :  2222
    Length :  16
 
 
-Test Case 42 		(Key = 14.4.)
+Test Case 30 		(Key = 14.4.)
    Prefix :  2222
    Length :  17
 
 
-Test Case 43 		(Key = 15.2.)
+Test Case 31 		(Key = 15.2.)
    Prefix :  2720
    Length :  15
 
 
-Test Case 44 		(Key = 15.3.)
+Test Case 32 		(Key = 15.3.)
    Prefix :  2720
    Length :  16
 
 
-Test Case 45 		(Key = 15.4.)
+Test Case 33 		(Key = 15.4.)
    Prefix :  2720
    Length :  17
 
 
-Test Case 46 		(Key = 16.2.)
-   Prefix :  2721
-   Length :  15
-
-
-Test Case 47 		(Key = 16.3.)
+Test Case 34 		(Key = 16.3.)
    Prefix :  2721
    Length :  16
-
-
-Test Case 48 		(Key = 16.4.)
-   Prefix :  2721
-   Length :  17
 

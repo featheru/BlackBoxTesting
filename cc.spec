@@ -14,18 +14,18 @@
 		52.		    [property MC3]
 		55.		    [property MC4]
 		56.		    [property MC5]
-		2220.		[property MC6]
-		2221.		[property MC4]
-		2222.		[property MC5]
-		2720.		[property MC6]
-		2721.		[property MC7]
+		2220.		[property MC11]
+		2221.		[property MC12]
+		2222.		[property MC13]
+		2720.		[property MC14]
+		2721.		[property MC15]
 	Length:
-		14.		    [if AmexTC1 || AmexTC2 || AmexTC3 || AmexTC4 || AmexTC5]
-		15.		
-		16.		    [property VisaLen] [property MCLen]
-		17.		    [if !AmexTC1 && !AmexTC2 && !AmexTC3 && !AmexTC4 && !AmexTC5]
+		14.		    [if AmexTC2 || AmexTC4]
+		15.		    [if !MC1 && !MC5 && !MC11 && !MC15]
+		16.		    [if !AmexTC1 && !AmexTC3 && !AmexTC5]
+		17.		    [if !AmexTC1 && !AmexTC2 && !AmexTC3 && !AmexTC4 && !AmexTC5 && !MC1 && !MC5 && !MC11 && !MC15]
 
 #	Contains only But Not Prefix and Not Other Valid:
-#		4.  		[if VisaLen && not any of the prefixes]
-#		52.		    [if MCLen && not any of the prefixes]
-#		2222.		[if MCLen && not any of the prefixes]	
+#		4.  		[if VisaLen && not any of the prefixes] --> 04444....
+#		52.		    [if MCLen && not any of the prefixes] --> 0525252
+#		2222.		[if MCLen && not any of the prefixes] --> 02222222222...
