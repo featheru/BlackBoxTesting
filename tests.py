@@ -2,7 +2,7 @@ import unittest
 from credit_card_validator import credit_card_validator
 
 """
-Test Cases for Credit Card Validation 
+Test Cases for Credit Card Validation
 Cases generated using TSL Generator in cc.spec into cc.spec.tsl
 testCases written using testWriterHelp.py
 File written to conform with PEP8
@@ -15,203 +15,218 @@ def writeerror(string):
 
 class TestCase(unittest.TestCase):
     def testCase1(self):
-        # Test Case: 1; Prefix: 4; Length: 15, CCNum: 401235678901235
-        ccnum = "401235678901235"
+        # Test Case: 1; Prefix: 4; Length: 15
+        ccnum = "401235678901239"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase2(self):
-        # Test Case: 2; Prefix: 4; Length: 16, CCNum: 4012356789012356
-        ccnum = "4012356789012356"
+        # Test Case: 2; Prefix: 4; Length: 16
+        ccnum = "4012356789012352"
         self.assertTrue(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase3(self):
-        # Test Case: 3; Prefix: 4; Length: 17, CCNum: 40123567890123567
-        ccnum = "40123567890123567"
+        # Test Case: 3; Prefix: 4; Length: 17
+        ccnum = "40123567890123561"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase4(self):
-        # Test Case: 4; Prefix: 33; Length: 15, CCNum: 330124567890124
-        ccnum = "330124567890124"
+        # Test Case: 4; Prefix: 33; Length: 15
+        ccnum = "330124567890123"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase5(self):
-        # Test Case: 5; Prefix: 34; Length: 14, CCNum: 34012567890125
-        ccnum = "34012567890125"
+        # Test Case: 5; Prefix: 34; Length: 14
+        ccnum = "34012567890129"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase6(self):
-        # Test Case: 6; Prefix: 34; Length: 15, CCNum: 340125678901256
-        ccnum = "340125678901256"
+        # Test Case: 6; Prefix: 34; Length: 15
+        ccnum = "340125678901251"
         self.assertTrue(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase7(self):
-        # Test Case: 7; Prefix: 34; Length: 16, CCNum: 3401256789012567
-        ccnum = "3401256789012567"
+        # Test Case: 7; Prefix: 34; Length: 16
+        ccnum = "3401256789012561"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase8(self):
-        # Test Case: 8; Prefix: 36; Length: 15, CCNum: 360124578901245
-        ccnum = "360124578901245"
+        # Test Case: 8; Prefix: 36; Length: 15
+        ccnum = "360124578901243"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase9(self):
-        # Test Case: 9; Prefix: 37; Length: 14, CCNum: 37012456890124
-        ccnum = "37012456890124"
+        # Test Case: 9; Prefix: 37; Length: 14
+        ccnum = "37012456890120"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase10(self):
-        # Test Case: 10; Prefix: 37; Length: 15, CCNum: 370124568901245
-        ccnum = "370124568901245"
+        # Test Case: 10; Prefix: 37; Length: 15
+        ccnum = "370124568901243"
         self.assertTrue(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase11(self):
-        # Test Case: 11; Prefix: 37; Length: 16, CCNum: 3701245689012456
-        ccnum = "3701245689012456"
+        # Test Case: 11; Prefix: 37; Length: 16
+        ccnum = "3701245689012455"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase12(self):
-        # Test Case: 12; Prefix: 38; Length: 15, CCNum: 380124567901245
-        ccnum = "380124567901245"
+        # Test Case: 12; Prefix: 38; Length: 15
+        ccnum = "380124567901242"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase13(self):
-        # Test Case: 13; Prefix: 50; Length: 16, CCNum: 5012346789123467
-        ccnum = "5012346789123467"
+        # Test Case: 13; Prefix: 50; Length: 16
+        ccnum = "5012346789123462"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase14(self):
-        # Test Case: 14; Prefix: 51; Length: 15, CCNum: 510234678902346
-        ccnum = "510234678902346"
+        # Test Case: 14; Prefix: 51; Length: 15
+        ccnum = "510234678902345"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase15(self):
-        # Test Case: 15; Prefix: 51; Length: 16, CCNum: 5102346789023467
-        ccnum = "5102346789023467"
+        # Test Case: 15; Prefix: 51; Length: 16
+        ccnum = "5102346789023465"
         self.assertTrue(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase16(self):
-        # Test Case: 16; Prefix: 51; Length: 17, CCNum: 51023467890234678
-        ccnum = "51023467890234678"
+        # Test Case: 16; Prefix: 51; Length: 17
+        ccnum = "51023467890234674"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase17(self):
-        # Test Case: 17; Prefix: 52; Length: 15, CCNum: 520134678901346
-        ccnum = "520134678901346"
+        # Test Case: 17; Prefix: 52; Length: 15
+        ccnum = "520134678901347"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase18(self):
-        # Test Case: 18; Prefix: 52; Length: 16, CCNum: 5201346789013467
-        ccnum = "5201346789013467"
+        # Test Case: 18; Prefix: 52; Length: 16
+        ccnum = "5201346789013466"
         self.assertTrue(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase19(self):
-        # Test Case: 19; Prefix: 52; Length: 17, CCNum: 52013467890134678
-        ccnum = "52013467890134678"
+        # Test Case: 19; Prefix: 52; Length: 17
+        ccnum = "52013467890134676"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase20(self):
-        # Test Case: 20; Prefix: 55; Length: 15, CCNum: 550123467890123
-        ccnum = "550123467890123"
+        # Test Case: 20; Prefix: 55; Length: 15
+        ccnum = "550123467890129"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase21(self):
-        # Test Case: 21; Prefix: 55; Length: 16, CCNum: 5501234678901234
-        ccnum = "5501234678901234"
+        # Test Case: 21; Prefix: 55; Length: 16
+        ccnum = "5501234678901230"
         self.assertTrue(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase22(self):
-        # Test Case: 22; Prefix: 55; Length: 17, CCNum: 55012346789012346
-        ccnum = "55012346789012346"
+        # Test Case: 22; Prefix: 55; Length: 17
+        ccnum = "55012346789012348"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase23(self):
-        # Test Case: 23; Prefix: 56; Length: 16, CCNum: 5601234789012347
-        ccnum = "5601234789012347"
+        # Test Case: 23; Prefix: 56; Length: 16
+        ccnum = "5601234789012348"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase24(self):
-        # Test Case: 24; Prefix: 2220; Length: 16, CCNum: 2220134567891345
-        ccnum = "2220134567891345"
+        # Test Case: 24; Prefix: 2220; Length: 16
+        ccnum = "2220134567891343"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase25(self):
-        # Test Case: 25; Prefix: 2221; Length: 15, CCNum: 222103456789034
-        ccnum = "222103456789034"
+        # Test Case: 25; Prefix: 2221; Length: 15
+        ccnum = "222103456789035"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase26(self):
-        # Test Case: 26; Prefix: 2221; Length: 16, CCNum: 2221034567890345
-        ccnum = "2221034567890345"
+        # Test Case: 26; Prefix: 2221; Length: 16
+        ccnum = "2221034567890346"
         self.assertTrue(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase27(self):
-        # Test Case: 27; Prefix: 2221; Length: 17, CCNum: 22210345678903456
-        ccnum = "22210345678903456"
+        # Test Case: 27; Prefix: 2221; Length: 17
+        ccnum = "22210345678903450"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase28(self):
-        # Test Case: 28; Prefix: 2222; Length: 15, CCNum: 222201345678901
-        ccnum = "222201345678901"
+        # Test Case: 28; Prefix: 2222; Length: 15
+        ccnum = "222201345678904"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase29(self):
-        # Test Case: 29; Prefix: 2222; Length: 16, CCNum: 2222013456789013
-        ccnum = "2222013456789013"
+        # Test Case: 29; Prefix: 2222; Length: 16
+        ccnum = "2222013456789016"
         self.assertTrue(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase30(self):
-        # Test Case: 30; Prefix: 2222; Length: 17, CCNum: 22220134567890134
-        ccnum = "22220134567890134"
+        # Test Case: 30; Prefix: 2222; Length: 17
+        ccnum = "22220134567890137"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase31(self):
-        # Test Case: 31; Prefix: 2720; Length: 15, CCNum: 272013456891345
-        ccnum = "272013456891345"
+        # Test Case: 31; Prefix: 2720; Length: 15
+        ccnum = "272013456891344"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase32(self):
-        # Test Case: 32; Prefix: 2720; Length: 16, CCNum: 2720134568913456
-        ccnum = "2720134568913456"
+        # Test Case: 32; Prefix: 2720; Length: 16
+        ccnum = "2720134568913455"
         self.assertTrue(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase33(self):
-        # Test Case: 33; Prefix: 2720; Length: 17, CCNum: 27201345689134568
-        ccnum = "27201345689134568"
+        # Test Case: 33; Prefix: 2720; Length: 17
+        ccnum = "27201345689134566"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCase34(self):
-        # Test Case: 34; Prefix: 2721; Length: 16, CCNum: 2721034568903456
-        ccnum = "2721034568903456"
+        # Test Case: 34; Prefix: 2721; Length: 16
+        ccnum = "2721034568903457"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCaseCustom1(self):
-        # Visa Non-Prefis but contains valid Number 4.
-        ccnum = "0444444444444444"
+        # Visa Non-Prefix but contains valid Number 4.
+        ccnum = "1444444444444444"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCaseCustom2(self):
         # MC Non-Prefix but contains valid Number 52.
-        ccnum = "0525252525252525"
+        ccnum = "1525252525252525"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCaseCustom3(self):
         # MC Non-Prefix but contains valid Number 2222.
-        ccnum = "0222222222222222"
+        ccnum = "1222222222222226"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCaseCustom4(self):
         # Amex Non-Prefix but contains valid Number 34.
-        ccnum = "034343434343434"
+        ccnum = "1343434343434341"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCaseCustom5(self):
         # Amex Non-Prefix but contains valid Number 37.
-        ccnum = "037373737373737"
+        ccnum = "137373737373735"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
     def testCaseCustom6(self):
         # Empty String
         ccnum = ""
+        self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
+
+    def testCaseLuhn1(self):
+        # Valid MC length, and prefix --> invalid Luhn
+        ccnum = "5353535353535336"
+        self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
+
+    def testCaseLuhn2(self):
+        # Valid Visa length, and prefix --> invalid Luhn
+        ccnum = "4353535353535339"
+        self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
+
+    def testCaseLuhn3(self):
+        # Valid Amex length, and prefix --> invalid Luhn
+        ccnum = "345353535353533"
         self.assertFalse(credit_card_validator(ccnum), msg=writeerror(ccnum))
 
 
